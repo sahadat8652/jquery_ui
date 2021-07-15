@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" type="text/css" href="jquery/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <header class=" bg-info">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">JqueryUi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigation">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item ms-3">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link" href="page2.html">Page 2</a>
+                </li>
+                <li class="nav-item ms-3">
+                  <a class="nav-link" href="page3.html">Page 3</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h1 class="text-center text-info">Draggable</h1>
+        <div id="draggable" class="ui-widget-content">
+          <p>Drag me around</p>
+        </div>
+      </div>
+    </section>
+    <section style="overflow: hidden;">
+      <div class="container">
+        <h1 class="text-center text-info">Dropapble</h1>
+
+        <div id="draggable1" class="ui-widget-content">
+          <p>Drag me to my target</p>
+        </div>
+         
+        <div id="droppable" class="ui-widget-header">
+          <p>Drop here</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h1 class="text-center text-info">Resizable</h1>
+        <div id="resizable" class="ui-widget-content">
+          <h3 class="ui-widget-header">Resizable</h3>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div class="container">
+        <h1 class="text-center text-info">Selectable</h1>
+        <p id="feedback">
+          <span>You&apos;ve selected:</span> <span id="select-result">none</span>.
+          </p>
+           
+          <ol id="selectable">
+            <li class="ui-widget-content">Item 1</li>
+            <li class="ui-widget-content">Item 2</li>
+            <li class="ui-widget-content">Item 3</li>
+            <li class="ui-widget-content">Item 4</li>
+            <li class="ui-widget-content">Item 5</li>
+            <li class="ui-widget-content">Item 6</li>
+          </ol>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h1 class="text-center text-info">Sortable</h1>
+        <ul id="sortable1" class="connectedSortable">
+          <li class="ui-state-default">Item 1</li>
+          <li class="ui-state-default">Item 2</li>
+          <li class="ui-state-default">Item 3</li>
+          <li class="ui-state-default">Item 4</li>
+          <li class="ui-state-default">Item 5</li>
+        </ul>
+         
+        <ul id="sortable2" class="connectedSortable">
+          <li class="ui-state-highlight">Item 1</li>
+          <li class="ui-state-highlight">Item 2</li>
+          <li class="ui-state-highlight">Item 3</li>
+          <li class="ui-state-highlight">Item 4</li>
+          <li class="ui-state-highlight">Item 5</li>
+        </ul>
+              </div>
+    </section>
+
+
+
+     <!-- JS links -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jquery/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
